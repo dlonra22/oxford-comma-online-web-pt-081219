@@ -2,7 +2,6 @@ def oxford_comma(array)
   strng = ""
   cnt = 0
   lngth = array.length
-  
   array.each do |elemnt|
     if (cnt == (lngth-1)) && (lngth > 1)
       strng << "and "+ elemnt
