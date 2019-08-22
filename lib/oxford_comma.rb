@@ -4,14 +4,13 @@ def oxford_comma(array)
   lngth = array.length
   array.each do |elemnt|
     if (cnt == (lngth)) && (lngth > 1)
-     strng << "and "+ elemnt
+      strng << "and "+ elemnt
     elsif (lngth > 2)
-    strng << elemnt +","
+      strng << elemnt +","
     else strng << elemnt
     end
-    if (cnt < lngth)
-      strng << " "
-    end
+    
+    if (cnt < lngth){ strng << " "  end }
     cnt+=1
   end
   strng
