@@ -8,7 +8,6 @@ def oxford_comma(array)
     elsif (lngth > 2)
     strng << elemnt +", "
     else strng << elemnt 
-      puts lngth
     end
   end
   strng
