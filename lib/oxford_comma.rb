@@ -6,7 +6,7 @@ def oxford_comma(array)
     if (cnt == (lngth-1)) && (lngth > 1)
       strng << " and "+ elemnt
     elsif (lngth > 2)
-    strng << elemnt +","
+    strng << elemnt +", "
     else strng << elemnt 
     end
     cnt=+1
