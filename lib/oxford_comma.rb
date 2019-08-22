@@ -4,6 +4,7 @@ def oxford_comma(array)
     if cnt == (array.length -1)
       strng << "and"+ elemnt
     else strng << elemnt +",")
+    end
   end
   strng
 end
