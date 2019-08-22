@@ -10,6 +10,8 @@ def oxford_comma(array)
     else strng << elemnt 
     end
     cnt+=1
+    puts lngth
+    puts cnt
   end
   strng
 end
