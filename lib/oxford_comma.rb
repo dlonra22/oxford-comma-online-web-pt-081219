@@ -5,7 +5,7 @@ def oxford_comma(array)
   lngth -= 1
   array.each do |elemnt|
     if cnt == lngth
-      strng << "and"+ elemnt
+      strng << "and "+ elemnt
     else strng << elemnt +","
     end
     cnt=+1
