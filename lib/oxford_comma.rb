@@ -9,7 +9,6 @@ def oxford_comma(array)
     strng << elemnt +", "
     else strng << elemnt 
     end
-    cnt=+1
   end
   strng
 end
