@@ -8,6 +8,8 @@ def oxford_comma(array)
       strng << "and "+ elemnt
     elsif (lngth > 2)
     strng << elemnt +","
+    else strng << elemnt +","
+      
     end
     cnt=+1
   end
