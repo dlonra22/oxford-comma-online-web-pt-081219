@@ -9,6 +9,7 @@ def oxford_comma(array)
         strng << elemnt +"," #executes for 3+
       else strng << elemnt #executes for 1 element
       end
+      #the below if puts a space for each punctuation + string block unless its the last
       if (cnt < lngth)
         strng << " "
         end
